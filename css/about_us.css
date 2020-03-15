@@ -32,11 +32,9 @@
   }
   .about_us .about_us_image::before {
     left: 0;
-    
   }
   .about_us .about_us_image::after {
     right: 0;
-
   }
   .about_us .about_us_content {
     position: relative;
@@ -60,9 +58,6 @@
     font-size: 273.85px;
     color: #f6f6f6;
   }
-  /* .left, .right {
-    position: relative;
-  } */
   .about_us_content .right::after,
   .about_us_content .right::before,
   .about_us_content .left::after,
@@ -95,8 +90,8 @@
     margin-bottom: 45px;
     font-family: librebaskervillebold;
     font-size: 50px;
-    color: #313131;}
-  
+    color: #313131;
+  }
   .about_us .about_us_content p {
     margin-left: 82px;
     margin-bottom: 40px;

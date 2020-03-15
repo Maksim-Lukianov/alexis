@@ -19,7 +19,7 @@
     height: 100%;
   }  
   .nav_container nav {
-    display: flex
+    display: flex;
   }
   header .logo {
     font-family: poppinsmedium;
@@ -55,10 +55,6 @@
   }
 
   /* wr_home_content */
-
-  .wr_home_content {
-    
-  }
   .wr_home_content .container {
     flex-direction: column;
     align-items: center;
@@ -109,10 +105,4 @@
   .wr_home_content .btn_features img {
     margin-bottom: 13px;
   }
-  .wr_home_content .btn_features p {
-    
-  }
-
-  
-
   

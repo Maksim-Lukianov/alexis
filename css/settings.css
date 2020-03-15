@@ -12,3 +12,8 @@ body {
 a {
     text-decoration: none;
 }
+h3 {
+    font-family: librebaskervillebold;
+    font-size: 50px;
+    color: #313131;
+}

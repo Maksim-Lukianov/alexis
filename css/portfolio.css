@@ -1,0 +1,31 @@
+.portfolio .container {
+  margin: 145px auto 40px;
+  flex-direction: column;
+  text-align: center;
+}
+.portfolio .container h3 {
+  position: relative;
+}
+.portfolio .container h3::before {
+  content: "03";
+  font-size: 274px;
+  color: #f6f6f6;
+  position: absolute;
+  bottom: -125%;
+  left: 32%;
+  z-index: -1;
+}
+.portfolio .container p {
+  font-family: poppinsregular;
+  font-size: 18px;
+  color: #616161;
+  margin-bottom: 85px;
+}
+.portfolio .portfolio_grid_container {
+  margin-bottom: 150px;
+  display: grid;
+  grid-template: repeat(3, 33.33%)/repeat(3, 33.33%);
+  grid-gap: 0.7vw .5vw;
+}
+
+/*# sourceMappingURL=portfolio.css.map */
