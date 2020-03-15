@@ -1,0 +1,32 @@
+@font-face { 
+    font-family: poppinsmedium;
+    src: url('../font/Poppins-Medium.ttf');
+}
+@font-face { 
+    font-family: poppinsregular;
+    src: url('../font/Poppins-Regular.ttf');
+}
+@font-face { 
+    font-family: poppinssemibold;
+    src: url('../font/Poppins-SemiBold.ttf');
+}
+@font-face {
+font-family: wisdomscript;
+src: url('../font/WisdomScriptAJ.ttf');
+}
+@font-face {
+font-family: sacramentoregular;
+src: url('../font/Sacramento-Regular.ttf');
+}
+@font-face {
+font-family: librebaskervilleregular;
+src: url('../font/LibreBaskerville-Regular.ttf');
+}
+@font-face {
+font-family: librebaskervillebold;
+src: url('../font/LibreBaskerville-Bold.ttf');
+}
+@font-face {
+font-family: nf;
+src: url('../font/ConquistadormanNF.ttf');
+}

@@ -1,0 +1,101 @@
+.services {
+  background-color: #f7f7f7;
+  z-index: -1;
+}
+.services .container {
+  flex-direction: column;
+  position: relative;
+  text-align: center;
+}
+.services .container h3 {
+  color: #313131;
+  position: relative;
+  z-index: 10;
+  margin-top: 150px;
+  font-family: librebaskervilleregular;
+  font-size: 50px;
+}
+.services .container h3::before {
+  content: "02";
+  font-size: 274px;
+  color: #f0f0f0;
+  position: absolute;
+  bottom: -135%;
+  left: 34%;
+  z-index: -1;
+}
+.services .container p {
+  margin: 42px auto 80px;
+  color: #616161;
+  font-family: poppinsregular;
+  font-size: 18px;
+}
+.services .services_container {
+  display: flex;
+  width: 100%;
+  margin-bottom: 150px;
+  position: relative;
+}
+.services .services_container .services_container_blok {
+  width: 25%;
+  margin: 0 15px;
+  flex-direction: column;
+  background-color: #fff;
+}
+.services .services_container .services_container_blok img {
+  margin: 66px auto 32px;
+}
+.services .services_container .services_container_blok h3 {
+  color: #313131;
+  margin: 0px auto 33px;
+  font-family: poppinsmedium;
+  font-size: 20px;
+}
+.services .services_container .services_container_blok p {
+  color: #616161;
+  margin: 0px auto 70px;
+  font-family: poppinsregular;
+  font-size: 15px;
+}
+.services .services_container .services_container_blok1,
+.services .services_container .services_container_blok2,
+.services .services_container .services_container_blok3,
+.services .services_container .services_container_blok4 {
+  position: relative;
+}
+.services .services_container .services_container_blok1::after,
+.services .services_container .services_container_blok2::after,
+.services .services_container .services_container_blok3::after,
+.services .services_container .services_container_blok4::after {
+  content: "";
+  position: absolute;
+  height: 3px;
+  width: 100%;
+}
+.services .services_container .services_container_blok1::after {
+  background-color: #fc5f45;
+  bottom: 0;
+  left: 0;
+}
+.services .services_container .services_container_blok2::after {
+  background-color: #38c695;
+  bottom: 0;
+  left: 0;
+}
+.services .services_container .services_container_blok3::after {
+  background-color: #b27cf5;
+  bottom: 0;
+  left: 0;
+}
+.services .services_container .services_container_blok3::after {
+  background-color: #b27cf5;
+  bottom: 0;
+  left: 0;
+}
+.services .services_container .services_container_blok4::after {
+  background-color: #feb960;
+  bottom: 0;
+  left: 0;
+}
+
+/*# sourceMappingURL=services.css.map */

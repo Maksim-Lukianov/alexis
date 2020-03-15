@@ -1,0 +1,118 @@
+/* wr_home */
+.wr_home {
+    background-color: #3f4049;
+    font-size: 16px;
+    min-height: 100vh;
+  }
+  header {
+    height: 75px;
+    background-color: #fff;
+  }
+  header .container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  header .nav_container {
+    display: flex;
+    height: 100%;
+  }  
+  .nav_container nav {
+    display: flex
+  }
+  header .logo {
+    font-family: poppinsmedium;
+    font-size: 14px;
+    color: #272727;
+    margin-top: -10px;
+  }
+  .wr_home .nav_container h1 {
+    font-size: 35px;
+    margin-right: 250px;
+    font-family: wisdomscript;
+    color: #616161;
+  }
+  .nav_container h1::first-letter {
+    color: #fc5f45;
+  }
+  .nav_container nav ul {
+    display: flex;
+    height: 100%;
+  }
+  .nav_container li {
+    margin-left: 21px;
+    margin-top: 4px;
+    display: flex;
+    align-items: center;
+    list-style: none;
+  }
+  .nav_container a {
+    font-family: poppinsmedium;
+    font-size: 14px;
+    color: #272727;
+    margin-top: -10px;
+  }
+
+  /* wr_home_content */
+
+  .wr_home_content {
+    
+  }
+  .wr_home_content .container {
+    flex-direction: column;
+    align-items: center;
+    margin: 110px auto 0;
+    line-height: 86px;
+  }
+  .wr_home_content h2 {
+    margin-bottom: 23px;
+    font-family: librebaskervilleregular;
+    color: #fff;
+    font-size: 60px;
+    text-align: center;
+  }
+  .wr_home_content .home_content_btn {
+    width: 180px;
+    height: 50px;
+    margin-bottom: 25px;
+    background-color: #fc5f45;
+    border-radius: 26px;
+    font-family: poppinssemibold;
+    color: #fff;
+  }
+  .wr_home_content .btn_features {
+    position: relative;
+    top: 58px;
+    display: flex;
+  }
+  .btn_features .btn_features_price,
+  .btn_features .btn_features_time,
+  .btn_features .btn_features_satisfaction {
+    font-family: poppinsmedium;
+    font-size: 18px;
+    background-color: #3f4049;
+    border: none;
+  }
+  .btn_features .btn_features_price {
+      color: #38c695;
+  }
+  .btn_features .btn_features_time {
+    position: relative;
+    left: 16px;
+    margin: 0 68px;
+    color: #b27cf5;
+  }
+  .btn_features .btn_features_satisfaction {
+  color: #feb960;
+  }
+  .wr_home_content .btn_features img {
+    margin-bottom: 13px;
+  }
+  .wr_home_content .btn_features p {
+    
+  }
+
+  
+
+  

@@ -1,0 +1,14 @@
+@import "./font.css";
+body {
+    background-color: #fff;
+    overflow-x: hidden;
+}
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+    display: flex;
+}
+a {
+    text-decoration: none;
+}

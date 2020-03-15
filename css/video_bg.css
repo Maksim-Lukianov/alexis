@@ -1,0 +1,26 @@
+.video_bg {
+  background-color: #3f4049;
+}
+.video_bg .video {
+  background-color: rgba 0 0 0 0.8;
+}
+.video_bg .container {
+  max-height: 500px;
+  flex-direction: column;
+}
+.video_bg .container p {
+  display: inline-block;
+  margin: 150px auto 150px;
+  font-family: poppinsregular;
+  color: #fff;
+}
+.video_bg .container .explore {
+  font-size: 30px;
+  margin: 150px auto 77px;
+}
+.video_bg .container .click {
+  font-size: 15px;
+  margin: 77px auto 150px;
+}
+
+/*# sourceMappingURL=video_bg.css.map */
