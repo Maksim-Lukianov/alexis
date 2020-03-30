@@ -30,3 +30,11 @@ src: url('../font/LibreBaskerville-Bold.ttf');
 font-family: nf;
 src: url('../font/ConquistadormanNF.ttf');
 }
+@font-face {
+font-family: futura;
+src: url('../font/FuturaLightfont.ttf');
+}
+@font-face {
+font-family: futurabold;
+src: url('../font/futuraBoldfont.ttf');
+}

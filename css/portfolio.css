@@ -1,31 +1,76 @@
+.portfolio {
+  position: relative;
+  padding: 4% 0 13.3%;
+}
 .portfolio .container {
-  margin: 145px auto 40px;
   flex-direction: column;
   text-align: center;
 }
 .portfolio .container h3 {
-  position: relative;
+  font-size: 58px;
+  letter-spacing: 1.9px;
+  margin-bottom: .5%;
 }
-.portfolio .container h3::before {
+.portfolio::before {
   content: "03";
   font-size: 274px;
   color: #f6f6f6;
   position: absolute;
-  bottom: -125%;
-  left: 32%;
+  font-family: futurabold;
+  top: -4%;
+  left: 50%;
+  transform: translate(-50%);
   z-index: -1;
+  letter-spacing: 28px;
 }
-.portfolio .container p {
+.portfolio .container p:first-of-type {
   font-family: poppinsregular;
   font-size: 18px;
   color: #616161;
-  margin-bottom: 85px;
+  margin-bottom: 7%;
 }
-.portfolio .portfolio_grid_container {
-  margin-bottom: 150px;
+.portfolio_grid_container ul {
   display: grid;
-  grid-template: repeat(3, 33.33%)/repeat(3, 33.33%);
-  grid-gap: 0.7vw .5vw;
+  margin-left: .7%;
+  padding: 0;
+  grid-template: repeat(3, 35%)/repeat(3, 32.1%);
+  grid-gap: 0.3% 1.4%;
 }
-
-/*# sourceMappingURL=portfolio.css.map */
+.portfolio_grid_container li,
+.portfolio_grid_container ul {
+  list-style: none;
+}
+.portfolio_grid_container li {
+  position: relative;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 255, 0.05);
+}
+.portfolio_grid_container .project,
+.portfolio_grid_container .project::before {
+  position: absolute;
+  left: 0;
+  opacity: 0;
+  width: 100%;
+  transition: .2s;
+}
+.portfolio_grid_container .project {
+  bottom: 5%;
+  height: 22%;
+  background-color: #fff;
+  line-height: 400%;
+  color: #313131;
+  font-family: poppinsmedium;
+  font-size: 18px;
+}
+.portfolio_grid_container .project::before {
+  content: "";
+  height: 3px;
+  background: linear-gradient(to right, rgba(252,95,69,1) 0%,rgba(252,95,69,1) 25%,rgba(56,198,149,1) 25%,rgba(56,198,149,1) 50%,rgba(178,124,245,1) 50%,rgba(178,124,245,1) 75%,rgba(254,185,96,1) 75%);
+  top: 0;
+}
+.portfolio_grid_container li:hover .project,
+.portfolio_grid_container li:hover .project::before {
+  opacity: 1;
+}
+.portfolio_grid_container img {
+  width: 100%;
+}

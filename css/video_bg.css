@@ -1,12 +1,15 @@
 .video_bg {
   background-color: #3f4049;
+  padding: 13.15%;
 }
-.video_bg .video {
-  background-color: rgba 0 0 0 0.8;
+.video_bg video {
+  width: 1920px;
+  height: 500px;
+  z-index: -1;
 }
 .video_bg .container {
-  max-height: 500px;
-  flex-direction: column;
+ background-color: #262732;
+ z-index: 10;
 }
 .video_bg .container p {
   display: inline-block;
@@ -14,11 +17,11 @@
   font-family: poppinsregular;
   color: #fff;
 }
-.video_bg .container .explore {
+.video_bg p:first-of-type {
   font-size: 30px;
   margin: 150px auto 77px;
 }
-.video_bg .container .click {
+.video_bg p:last :last-of-type {
   font-size: 15px;
   margin: 77px auto 150px;
 }

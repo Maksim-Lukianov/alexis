@@ -12,8 +12,15 @@ body {
 a {
     text-decoration: none;
 }
+a:hover,
+button:hover {
+    cursor: pointer;
+}
 h3 {
-    font-family: librebaskervillebold;
+    font-family: baskervillebold;
     font-size: 50px;
     color: #313131;
+}
+p {
+    color: #616161;
 }

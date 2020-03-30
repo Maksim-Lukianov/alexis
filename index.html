@@ -4,17 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" 
     content="width=device-width, height=device-height, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/fontawesome.min.css">
+    <link rel="shortcut icon" href="./media/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="./css/style.css">
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
-    <title>progect</title>
+    <title>Alexis</title>
 </head>
 <body>
     <section class="wr_home">
         <header>
             <div class="container">
-                <div class="nav_container">
+                <a class="logo" href="#">Alexis</a>
                 <nav>
-                <a class="logo" href="#"><h1>Alexis</h1></a>
                     <ul>
                         <li><a href="#">About Us</a></li>
                         <li><a href="#">Our Focus</a></li>
@@ -27,37 +27,37 @@
                         <li><a href="#">Contact</a></li>
                     </ul>
                 </nav>
-                </div>
             </div>       
         </header>
     <section class="wr_home_content">
         <div class="container wr_home_container">
             <h2>We design things with love and passion. </h2>
-                 <div><button class="home_content_btn"> OUR WORKS</button></div>
-                    <div class="btn_features">
-                        <button class="btn_features_price">
-                            <img src="./media/icon_dollars.png" alt="dollasr icon">
-                            <p>FIXED PRICE PROGECTS</p> 
-                        </button>
-                        <button class="btn_features_time">
-                            <img src="./media/icon_clock.png" alt="clock icon">
-                            <p>RECEIVE ON TIME</p> 
-                        </button>
-                        <button class="btn_features_satisfaction">
-                            <img src="./media/icon_check.png" alt="check icon">
-                        <p>SATISFACTION GURANTEED</p> 
-                        </button>
-                    </div>
+            <img class="size" src="./media/wr-home_size.jpg" alt="size image" />
+            <button class="home_content_btn"> OUR WORKS</button>
+            <div class="btn_features">
+                <button class="btn_features_price">
+                    <img src="./media/icon_dollars.png" alt="dollasr icon">
+                    <p>FIXED PRICE PROGECTS</p> 
+                </button>
+                <button class="btn_features_time">
+                    <img src="./media/icon_clock.png" alt="clock icon">
+                    <p>RECEIVE ON TIME</p> 
+                </button>
+                <button class="btn_features_satisfaction">
+                    <img src="./media/icon_check.png" alt="check icon">
+                <p>SATISFACTION GURANTEED</p> 
+                </button>
             </div>
         </div>
-        </section>
+    </section>
     </section>
     <section class="about_us">
         <div class="container">
             <div class="about_us_image">
-                <span></span>
+               <img class="bg_about_us_image" src="./media/image_about_us.jpg" alt="about us image">
             </div>
                 <div class="about_us_content">
+                    <div class="description">
                     <h3>About Us.</h3>
                     <p>
                         Analytics release series A financing launch party interaction design android angel investor. Vesting period social media sales conversion launch party rockstar incubator customer social proof graphical user interface technology supply chain. Non-disclosure agreement rockstar creative partner network launch party social proof paradigm shift long tail influencer. 
@@ -67,8 +67,7 @@
                         management. Customer non-disclosure agreement strategy 
                         android growth hacking ramen buyer.
                     </p>
-                    <span class="left"></span>
-                    <span class="right"></span>
+                    </div>
                 </div>
         </div>
     </section>
@@ -77,28 +76,28 @@
         <h3>Our Focus.</h3>
         <p>We understand your requirement and provide quality works.</p>
         <div class="services_container">
-            <div class="services_container_blok services_container_blok1">
+            <div class="services_container_blok blok1">
                 <img src="./media/icon_web_design.png" alt="web desing icon">
                 <h5>Web Design</h5>
                 <p>
                     Analytics release series A financing launch party interaction design android angel investor.
                 </p>
             </div>
-            <div class="services_container_blok services_container_blok2">
+            <div class="services_container_blok blok2">
                 <img src="./media/icon_ux_design.png" alt="ux design icon">
                 <h5>UX Design</h5>
                 <p>
                     Analytics release series A financing launch party interaction design android angel investor. 
                 </p>
             </div>
-            <div class="services_container_blok services_container_blok3">
+            <div class="services_container_blok blok3">
                 <img src="./media/icon_photography.png" alt="photogrpahy icon">
                 <h5>Photogrpahy</h5>
                 <p>
                     Analytics release series A financing launch party interaction design android angel investor.
                 </p>
             </div>
-            <div class="services_container_blok services_container_blok4">
+            <div class="services_container_blok blok4">
                 <img src="./media/icon_app_development.png" alt="app development icon">
                 <h5>App Development</h5>
                 <p>
@@ -109,31 +108,248 @@
     </div>
     </section>
     <section class="video_bg">
-            <div class="video">
-                <video class="video_media" src="" autoplay muted loop></div>
-        <div class="video_bg_text">            
-            <div class="container">
-                <p class="explore">Explore Our Awesomeness</p>
-                <p class="click">Click to play video</p>
+        <!-- <div class="container">
+                <video poster="./media/video_background.jpg" id="video-player">
+                   <source src="./media/video_background.mp4" type="video/mp4"/>
+                </video>
+                <div class="video_description">
+                    <p>Explore Our Awesomeness</p>
+                    <p>Click to play video</p>
+                </div>
+            </div>
             </div> 
-        </div>
+        </div> -->
     </section>
     <section class="portfolio">
         <div class="container">
             <h3>Portfolio.</h3>
             <p>We understand your requirement and provide quality works.</p>
             <div class="portfolio_grid_container">
-                <img src="./media/image_first_project.jpg" alt="image first project">
-                <img src="./media/image_second_project.jpg" alt="image second project">
-                <img src="./media/image_third_project.jpg" alt="image third project">
-                <img src="./media/image_fourth_project.jpg" alt="image fourth project">
-                <img src="./media/image_fifth_project.jpg" alt="image fifth project">
-                <img src="./media/image_sixth_project.jpg" alt="image sixth project">
-                <img src="./media/image_seventh_project.jpg" alt="image seventh project">
-                <img src="./media/image_eighth_project.jpg" alt="image eighth project">
-                <img src="./media/image_ninth_project.jpg" alt="image ninth project">
+                <ul>
+                    <li>
+                        <a>
+                            <span class="project">Project one</span>
+                            <img  src="./media/image_first_project.jpg" alt="image first project">
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <span class="project">Project two</span>
+                            <img src="./media/image_second_project.jpg" alt="image second project">
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <span class="project">Project three</span>
+                            <img src="./media/image_third_project.jpg" alt="image third project">
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <span class="project">Project four</span>
+                            <img src="./media/image_fourth_project.jpg" alt="image fourth project">
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <span class="project">Project five</span>
+                            <img src="./media/image_fifth_project.jpg" alt="image fifth project">
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <span class="project">Project six</span>
+                            <img src="./media/image_sixth_project.jpg" alt="image sixth project">
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <span class="project">Project seven</span>
+                            <img src="./media/image_seventh_project.jpg" alt="
+                        image seventh project">
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <span class="project">Project eight</span>
+                            <img src="./media/image_eighth_project.jpg" alt="image eighth project">
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            <span class="project">Project nine</span>
+                            <img src="./media/image_ninth_project.jpg" alt="image ninth project">
+                        </a>
+                    </li>
+                </ul>  
             </div>
         </div>
     </section>
+    <section class="team">
+        <div class="container">
+            <h3>Our Team.</h3>
+            <p>We understand your requirement and provide quality works.</p>
+            <div class="team_members">
+                <div class="team_members_card">
+                    <div class="single_member single_member1">
+                    <img src="./media/image_first_member.jpg" alt="image team member">
+                    <h4>Michael Schmitt</h4>
+                    <p>Founder & CEO</p>
+                    </div>
+                    <div class="single_member single_member2">
+                    <img src="./media/image_second_member.jpg" alt="image team member">
+                    <h4>David Krämer</h4>
+                    <p>Lead Developer</p>
+                    </div>
+                    <div class="single_member single_member3">
+                    <img src="./media/image_third_member.jpg" alt="image team member">
+                    <h4>Anna Schröder</h4>
+                    <p>Designer</p>
+                    </div>
+                    <div class="single_member single_member4">
+                    <img src="./media/image_fourth_member.jpg" alt="image team member">
+                    <h4>Jason Teichmann</h4>
+                    <p>Consultant </p>
+                    </div>
+                </div>  
+                <div class="about_team_members">
+                    <div class="about_members about_first_member">
+                    <div class="description">
+                        <h4>About Michael</h4>
+                        <p>Monetization first mover advantage iPad. Interaction design buzz handshake. Stealth agile development branding. Backing facebook hackathon conversion startup scrum project niche market business-to-consumer paradigm shift traction. Rockstar 
+                            bandwidth twitter ownership success disruptive series A financing user experience buyer client social proof validation hypotheses. User experience crowdfunding 
+                            facebook seed round A/B testing mass market. </p>
+                    </div>
+                    <div class="social_link">
+                        <ul>
+                            <li><a href="#"><i class="fab fa-facebook-f"></i><span>Facebook</span></a></li>
+                            <li><a href="#"><i class="fab fa-twitter"></i><span>Twitter</span></a></li>
+                            <li><a href="#"><i class=""></i><span>LinkedIn</span></a></li>
+                            <li><a href="#"><i class="fab fa-instagram"></i><span>Instagram</span></a></li>
+                        </ul>
+                    </div>
+                    <!-- </div>
+                    <div class="about_members about_second_member">
+                    <div class="description">
+                        <h4>About David</h4>
+                        <p>Monetization first mover advantage iPad. Interaction design buzz handshake. Stealth agile development branding. Backing facebook hackathon conversion startup scrum project niche market business-to-consumer paradigm shift traction. Rockstar 
+                        bandwidth twitter ownership success disruptive series A financing user experience buyer client social proof validation hypotheses. User experience crowdfunding 
+                        facebook seed round A/B testing mass market. </p>
+                    </div>
+                    <div class="social_link">
+                        <ul>
+                            <li><a href="#">Facebook</a></li>
+                            <li><a href="#">Twitter</a></li>
+                            <li><a href="#">LinkedIn</a></li>
+                            <li><a href="#">Instagram</a></li>
+                        </ul>
+                    </div>
+                    </div>
+                    <div class="about_members about_third_member">
+                    <div class="description">
+                        <h4>About Anna</h4>
+                        <p>Monetization first mover advantage iPad. Interaction design buzz handshake. Stealth agile development branding. Backing facebook hackathon conversion startup scrum project niche market business-to-consumer paradigm shift traction. Rockstar 
+                        bandwidth twitter ownership success disruptive series A financing user experience buyer client social proof validation hypotheses. User experience crowdfunding 
+                        facebook seed round A/B testing mass market. </p>
+                    </div>
+                    <div class="social_link">
+                        <ul>
+                            <li><a href="#">Facebook</a></li>
+                            <li><a href="#">Twitter</a></li>
+                            <li><a href="#">LinkedIn</a></li>
+                            <li><a href="#">Instagram</a></li>
+                        </ul>
+                    </div>
+                    </div>
+                    <div class="about_members about_fourth_member">
+                    <div class="description">
+                        <h4>About Jason</h4>
+                        <p>Monetization first mover advantage iPad. Interaction design buzz handshake. Stealth agile development branding. Backing facebook hackathon conversion startup scrum project niche market business-to-consumer paradigm shift traction. Rockstar 
+                        bandwidth twitter ownership success disruptive series A financing user experience buyer client social proof validation hypotheses. User experience crowdfunding 
+                        facebook seed round A/B testing mass market. </p>
+                    </div>
+                    <div class="social_link">
+                        <ul>
+                            <li><a href="#">Facebook</a></li>
+                            <li><a href="#">Twitter</a></li>
+                            <li><a href="#">LinkedIn</a></li>
+                            <li><a href="#">Instagram</a></li>
+                        </ul>
+                    </div>
+                    </div> -->
+                </div>
+            </div>    
+        </div>
+    </section>
+    <section class="statistics">
+        <div class="container">
+            <div class="statistics_block">
+                <div class="statistic block1">
+                    <img src="./media/stats/stat1_icon.png" alt="
+                    schedule image">
+                    <p>12,458+</p>
+                    <p>Projects Completed</p>
+                </div>
+                <div class="statistic block2">
+                    <img src="./media/stats/stat2_icon.png" alt="new clients image">
+                    <p>1,796+</p>
+                    <p>Satisfied Clients</p>
+                </div>
+                <div class="statistic block3">
+                    <img src="./media/stats/stat3_icon.png" alt="
+                    heart image">
+                    <p>1,000+</p>
+                    <p>Positive Feedbacks</p>
+                </div>
+                <div class="statistic block4">
+                    <img src="./media/stats/stat4_icon.png" alt="present image">
+                    <p>1,500+</p>
+                    <p>Freebies Released</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="how_we_work">
+        <div class="container">
+            <div class="header">
+                <h3>Work Steps.</h3>
+                <p>We understand your requirement and provide quality works.</p>
+            </div>
+            <div class="steps_container">
+                <div class="image">
+                    <img src="./media/steps/image_first_step.jpg" alt="first image">
+                    <img src="./media/steps/image_second_step.jpg" alt="second image">
+                    <img src="./media/steps/image_third_step.jpg" alt="third image">
+                    <img src="./media/steps/image_fourth_step.jpg" alt="fourth image">
+                    </div>
+                    <div class="steps">
+                        <div class="step block1">
+                            <h4>Project Understanding</h4>
+                            <p>Buyer strategy incubator niche market startup. Entrepreneur non disclosure agreement MVP traction beta social media investor 
+                            accelerator.</p>
+                        </div>
+                        <div class="step block2">
+                            <h4>Research & Planning</h4>
+                            <p>Buyer strategy incubator niche market startup. Entrepreneur non disclosure agreement MVP traction beta social media investor 
+                            accelerator.</p>
+                        </div>
+                        <div class="step block3">
+                            <h4>Wireframe & Design</h4>
+                            <p>Buyer strategy incubator niche market startup. Entrepreneur non disclosure agreement MVP traction beta social media investor 
+                            accelerator.</p>
+                        </div>
+                        <div class="step block4">
+                            <h4>Development</h4>
+                            <p>Buyer strategy incubator niche market startup. Entrepreneur non disclosure agreement MVP traction beta social media investor 
+                            accelerator.</p>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </section>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
+    <script src="./js/script.js"></script>
 </body>
 </html>
